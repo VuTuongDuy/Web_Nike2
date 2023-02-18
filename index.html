@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/css.css">
+  <link href="https://unpkg.com/tailwindcss@0.3.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'>
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <title>NIKE</title>
+</head>
+
+<body ng-app="myapp">
+  <nav ng-include="'header.html'"></nav>
+  <div ng-view></div>
+  <nav ng-include="'footer.html'"></nav>
+  <script>
+    var app = angular.module("myapp", ["ngRoute"]);
+    app.config(function ($routeProvider, $locationProvider) {
+      $locationProvider.hashPrefix("");
+      $routeProvider
+        .when("/home", {
+          templateUrl: "home.html",
+        })
+        .when("/gioithieu", {
+          templateUrl: "gioithieu.html",
+        })
+        .when("/dangky", {
+          templateUrl: "dangky.html",
+        })
+        .when("/dangnhap", {
+          templateUrl: "dangnhap.html",
+        })
+        .when("/quenmk", {
+          templateUrl: "quenmk.html",
+        })
+        .when("/sanpham", {
+          templateUrl: "sanpham.html",
+          controller: SanPhamController,
+        })
+        .when("/sanphams/detail/:id", {
+          templateUrl: "detailsanpham.html",
+          controller: SanPhamDetailController,
+        })
+        .when("/giohang", {
+          templateUrl: "giohang.html",
+        })
+        .when("/CRUD", {
+          templateUrl: "CRUD.html",
+          controller: SanPhamController,
+        })
+        .otherwise({
+          redirectTo: "/home",
+        });
+    });
+  </script>
+  <script src="sanphams.js"></script>
+  <script src="sanpham-detail.js"></script>
+</body>
+</html>

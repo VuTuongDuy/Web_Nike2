@@ -1,0 +1,53 @@
+<div class="container-fluid">
+    <form style="padding-top: 15px;" method="post">
+        <div class="form-floating mb-3">
+          <input class="form-control" id="floatingPassword" placeholder="Password" ng-model="id" required>
+          <label for="floatingPassword">Id:</label>
+        </div>
+        
+        <div class="form-floating mb-3">
+          <input class="form-control" id="floatingPassword" placeholder="Password" ng-model="image" required>
+          <label for="floatingPassword">Image:</label>
+        </div>
+      
+        <div class="form-floating mb-3">
+          <input class="form-control" id="floatingPasswordConfirm" placeholder="Confirm Password" ng-model="name" required>
+          <label for="floatingPasswordConfirm">Name:</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input class="form-control" id="floatingPassword" placeholder="Password" ng-model="mota" required> 
+          <label for="floatingPassword">Mô tả:</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input class="form-control" id="floatingPassword" placeholder="Password" ng-model="giaban" required>
+          <label for="floatingPassword">Giá bán:</label>
+        </div>
+        <div class="button">
+          <a href="#" class="rainbow rainbow-1" type="button" ng-click="onSubmit()">Add new</a> <a href="#" type="button" class="rainbow rainbow-2" ng-click="updateSanPham()">Update</a>
+        </div>
+      </form>
+    <table class="table table-dark" style="margin-top: 50px;">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Ảnh</th>
+                <th scope="col">Tên</th>
+                <th scope="col">Mô tả</th>
+                <th scope="col">Giá bán</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody ng-repeat="sp in listSanpham">
+            <tr>
+                <th scope="row">{{sp.id}}</th>
+                <td>{{sp.image}}</td>
+                <td>{{sp.name}}</td>
+                <td>{{sp.mota}}</td>
+                <td>{{sp.giaban}}</td>
+                <td>
+                    <a class="rainbow rainbow-1" type="button" ng-click="detail(sp.id)">Detail</a> <a class="rainbow rainbow-2" type="button" ng-click="deleteSP(sp.id)">Xóa</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

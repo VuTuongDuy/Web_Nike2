@@ -1,0 +1,121 @@
+{
+  "sanphams": [
+    {
+      "id": 1,
+      "image": "image/anh11.png",
+      "image1": "image/anh22.png",
+      "image2": "image/anh23.png",
+      "image3": "image/anh24.png",
+      "name": "Nike SuperRep Cycle 2 Next",
+      "mota": "Indoor Cycling Shoes",
+      "giaban": "3,519,000đ"
+    },
+    {
+      "id": 2,
+      "image": "image/anhgiay10.png",
+      "image1": "image/anh31.png",
+      "image2": "image/anh32.png",
+      "image3": "image/anh33.png",
+      "name": "Nike Air Force 1 '07 Premium",
+      "mota": "WMen's Shoes",
+      "giaban": "3,519,000₫"
+    },
+    {
+      "id": 3,
+      "image": "image/anh13.png",
+      "image1": "image/anh34.png",
+      "image2": "image/anh35.png",
+      "image3": "image/anh36.png",
+      "name": "Nike Metcon 8 AMP",
+      "mota": "Men's Training Shoes",
+      "giaban": "4,109,000đ"
+    },
+    {
+      "id": 4,
+      "image": "image/anh30.png",
+      "image1": "image/anh37.png",
+      "image2": "image/anh38.png",
+      "image3": "image/anh39.png",
+      "name": "Nike Air Max Alpha Trainer 5",
+      "mota": "Men's Training Shoes",
+      "giaban": "2,499,000đ"
+    },
+    {
+      "id": 5,
+      "image": "image/anh40.png",
+      "image1": "image/anh41.png",
+      "image2": "image/anh42.png",
+      "image3": "image/anh43.png",
+      "name": "Nike Metcon 8",
+      "mota": "Men's Training Shoes",
+      "giaban": "3,829,000đ"
+    },
+    {
+      "id": 6,
+      "image": "image/anh13.png",
+      "name": "Nike Air Zoom Terra Kiger 8",
+      "mota": "Women's Trail Running Shoes",
+      "giaban": "4,109,000đ"
+    },
+    {
+      "id": 7,
+      "image": "image/anh14.png",
+      "image1": "image/anh44.png",
+      "image2": "image/anh45.png",
+      "image3": "image/anh46.png",
+      "name": "Nike ZoomXXX Zegama",
+      "mota": "Women's Trail-Running Shoes",
+      "giaban": "4,409,000đ"
+    },
+    {
+      "id": 8,
+      "image": "image/anh15.png",
+      "image1": "image/anh47.png",
+      "image2": "image/anh48.png",
+      "image3": "image/anh49.png",
+      "name": "Nike Air Zoom Arcadia",
+      "mota": "Younger Kids' Shoes",
+      "giaban": "1,789,000đ"
+    },
+    {
+      "id": 9,
+      "image": "image/anh16.png",
+      "image1": "image/anh50.png",
+      "image2": "image/anh51.png",
+      "image3": "image/anh52.png",
+      "name": "Nike Storm-FIT AeroBill L91",
+      "mota": "Fitness Cap",
+      "giaban": "819,000đ"
+    },
+    {
+      "id": 10,
+      "image": "image/anh17.png",
+      "image1": "image/anh54.png",
+      "image2": "image/anh53.png",
+      "image3": "image/anh55.png",
+      "name": "Nike Brasilia 9.5",
+      "mota": "Training Backpack (Medium, 24L)",
+      "giaban": "1,199,000đ"
+    },
+    {
+      "id": 11,
+      "image": "image/anh21.png",
+      "image1": "image/anh56.png",
+      "image2": "image/anh57.png",
+      "image3": "image/anh58.png",
+      "name": "Nike SuperRep Go 3 Flyknit Next",
+      "mota": "Women's Trail Running Shoes",
+      "giaban": "2,499,000đ"
+    },
+    {
+      "id": 12,
+      "image": "image/anh20.png",
+      "image1": "image/anh59.png",
+      "image2": "image/anh60.png",
+      "image3": "image/anh61.png",
+      "name": "Nike Zoom Superfly Elite 2",
+      "mota": "Athletics Sprinting Spikes",
+      "giaban": "4,409,000đ"
+    }
+  ]
+}
